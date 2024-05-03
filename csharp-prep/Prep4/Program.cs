@@ -23,9 +23,17 @@ class Program
             double average = numbers.Average();
             int max = numbers.Max();
 
+            //sort the numbers list
+            numbers.Sort();
+
             Console.WriteLine($"The sum is: {sum}");
             Console.WriteLine($"The average is: {average}");
             Console.WriteLine($"The largest number is: {max}");
+            Console.WriteLine($"The ordered list is: ");
+            foreach (int num in numbers)
+            {
+                Console.WriteLine(num);
+            }
         }
         else
         {
