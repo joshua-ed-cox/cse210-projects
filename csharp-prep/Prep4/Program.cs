@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        int input = 1;
+        int input = -1;
         List<int> numbers = new List<int>();
 
         Console.WriteLine("Enter a list of numbers. Type 0 when finished");
